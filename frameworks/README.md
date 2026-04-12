@@ -1,0 +1,18 @@
+# Frameworks
+
+Harness runtimes, SDKs, and harness-first platforms that aim to run or orchestrate AI agents in production-like settings.
+
+[中文](README_ZH.md) | [Back to home](../README.md)
+
+| # | Project | GitHub | Stars | License | Focus | Notes |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | OpenHarness | [Repo](https://github.com/HKUDS/OpenHarness) | [![Stars](https://img.shields.io/github/stars/HKUDS/OpenHarness?style=flat-square)](https://github.com/HKUDS/OpenHarness) | MIT | Open agent harness runtime | One of the clearest open-source projects explicitly branding itself as an agent harness. |
+| 2 | deepagents | [Repo](https://github.com/langchain-ai/deepagents) | [![Stars](https://img.shields.io/github/stars/langchain-ai/deepagents?style=flat-square)](https://github.com/langchain-ai/deepagents) | MIT | LangGraph-based harness | Combines planning, filesystem tools, and subagents for complex long-horizon tasks. |
+| 3 | hive | [Repo](https://github.com/aden-hive/hive) | [![Stars](https://img.shields.io/github/stars/aden-hive/hive?style=flat-square)](https://github.com/aden-hive/hive) | Apache-2.0 | Multi-agent production harness | A strong runtime-oriented project for coordinating multiple agents in production. |
+| 4 | Trellis | [Repo](https://github.com/mindfold-ai/Trellis) | [![Stars](https://img.shields.io/github/stars/mindfold-ai/Trellis?style=flat-square)](https://github.com/mindfold-ai/Trellis) | AGPL-3.0 | General agent harness | Positions itself as a general-purpose agent harness rather than a single benchmark repo. |
+| 5 | Yuxi | [Repo](https://github.com/xerrors/Yuxi) | [![Stars](https://img.shields.io/github/stars/xerrors/Yuxi?style=flat-square)](https://github.com/xerrors/Yuxi) | MIT | Knowledge-centric harness platform | Blends agent runtime, knowledge base management, graphs, and multi-tenant deployment. |
+| 6 | nexent | [Repo](https://github.com/ModelEngine-Group/nexent) | [![Stars](https://img.shields.io/github/stars/ModelEngine-Group/nexent?style=flat-square)](https://github.com/ModelEngine-Group/nexent) | MIT | Zero-code harness-first platform | Focuses on zero-code assembly of tools, memory, orchestration, and control planes. |
+| 7 | revfactory/harness | [Repo](https://github.com/revfactory/harness) | [![Stars](https://img.shields.io/github/stars/revfactory/harness?style=flat-square)](https://github.com/revfactory/harness) | Apache-2.0 | Meta-skill team generator | Interesting because it treats harnessing as a way to generate domain-specific agent teams. |
+| 8 | open-harness | [Repo](https://github.com/MaxGfeller/open-harness) | [![Stars](https://img.shields.io/github/stars/MaxGfeller/open-harness?style=flat-square)](https://github.com/MaxGfeller/open-harness) | MIT | Composable agent SDK | More code-first and SDK-like than the larger platform repos above. |
+| 9 | auto-harness | [Repo](https://github.com/neosigmaai/auto-harness) | [![Stars](https://img.shields.io/github/stars/neosigmaai/auto-harness?style=flat-square)](https://github.com/neosigmaai/auto-harness) | MIT | Self-improving harness optimizer | Mines failures, improves the harness, and adds regression gates around agent behavior. |
+| 10 | AutoHarness | [Repo](https://github.com/aiming-lab/AutoHarness) | [![Stars](https://img.shields.io/github/stars/aiming-lab/AutoHarness?style=flat-square)](https://github.com/aiming-lab/AutoHarness) | MIT | Automated harness engineering | Explicitly focused on automating harness engineering for AI agents. |

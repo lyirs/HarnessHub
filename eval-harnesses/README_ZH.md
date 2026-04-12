@@ -1,0 +1,20 @@
+# 评测 Harness
+
+这里集中收录那些把 harness 用在 LLM、Agent、代码、音频、机器人与更广义 GenAI 评测上的项目。
+
+[English](README.md) | [返回首页](../README_ZH.md)
+
+| 序号 | 项目 | GitHub | Stars | 许可 | 侧重点 | 备注 |
+| --- | --- | --- | --- | --- | --- | --- |
+| 1 | lm-evaluation-harness | [Repo](https://github.com/EleutherAI/lm-evaluation-harness) | [![Stars](https://img.shields.io/github/stars/EleutherAI/lm-evaluation-harness?style=flat-square)](https://github.com/EleutherAI/lm-evaluation-harness) | MIT | 通用 LLM 评测执行器 | 它依然是开源生态里最有代表性的 few-shot 大模型评测 harness。 |
+| 2 | bigcode-evaluation-harness | [Repo](https://github.com/bigcode-project/bigcode-evaluation-harness) | [![Stars](https://img.shields.io/github/stars/bigcode-project/bigcode-evaluation-harness?style=flat-square)](https://github.com/bigcode-project/bigcode-evaluation-harness) | Apache-2.0 | 代码生成评测 | 专门面向自回归代码生成模型的 evaluation harness。 |
+| 3 | claw-eval | [Repo](https://github.com/claw-eval/claw-eval) | [![Stars](https://img.shields.io/github/stars/claw-eval/claw-eval?style=flat-square)](https://github.com/claw-eval/claw-eval) | Unknown | Agent 任务评测 | 强调“把 LLM 当 agent 来评测”，并且任务经过人工核验。 |
+| 4 | OpenClawProBench | [Repo](https://github.com/suyoumo/OpenClawProBench) | [![Stars](https://img.shields.io/github/stars/suyoumo/OpenClawProBench?style=flat-square)](https://github.com/suyoumo/OpenClawProBench) | Apache-2.0 | 在线 agent benchmark harness | 重点在 live runtime、确定性打分和多次试验的一致性。 |
+| 5 | math-evaluation-harness | [Repo](https://github.com/ZubinGou/math-evaluation-harness) | [![Stars](https://img.shields.io/github/stars/ZubinGou/math-evaluation-harness?style=flat-square)](https://github.com/ZubinGou/math-evaluation-harness) | MIT | 数学推理评测 | 一个体量不大但很实用的数学推理 benchmark harness。 |
+| 6 | vla-evaluation-harness | [Repo](https://github.com/allenai/vla-evaluation-harness) | [![Stars](https://img.shields.io/github/stars/allenai/vla-evaluation-harness?style=flat-square)](https://github.com/allenai/vla-evaluation-harness) | Apache-2.0 | 机器人/VLA 评测 | 把 VLA 模型和机器人仿真 benchmark 的评测过程统一起来。 |
+| 7 | etalon | [Repo](https://github.com/project-etalon/etalon) | [![Stars](https://img.shields.io/github/stars/project-etalon/etalon?style=flat-square)](https://github.com/project-etalon/etalon) | Apache-2.0 | Serving 性能评测 harness | 更偏基础设施视角，关注吞吐、时延和服务性能。 |
+| 8 | japanese-lm-fin-harness | [Repo](https://github.com/pfnet-research/japanese-lm-fin-harness) | [![Stars](https://img.shields.io/github/stars/pfnet-research/japanese-lm-fin-harness?style=flat-square)](https://github.com/pfnet-research/japanese-lm-fin-harness) | MIT | 领域化 LLM 评测 | 一个聚焦日语金融场景的大模型评测 harness。 |
+| 9 | swt-bench | [Repo](https://github.com/logic-star-ai/swt-bench) | [![Stars](https://img.shields.io/github/stars/logic-star-ai/swt-bench?style=flat-square)](https://github.com/logic-star-ai/swt-bench) | MIT | 仓库级测试生成评测 | 面向 repository-level LLM test generation 的 evaluation harness。 |
+| 10 | OpenHands/benchmarks | [Repo](https://github.com/OpenHands/benchmarks) | [![Stars](https://img.shields.io/github/stars/OpenHands/benchmarks?style=flat-square)](https://github.com/OpenHands/benchmarks) | MIT | OpenHands Agent 评测 | OpenHands V1 的专用评测 harness。 |
+| 11 | AU-Harness | [Repo](https://github.com/ServiceNow/AU-Harness) | [![Stars](https://img.shields.io/github/stars/ServiceNow/AU-Harness?style=flat-square)](https://github.com/ServiceNow/AU-Harness) | Apache-2.0 | 音频理解评测 | 面向大型音频语言模型的专用测试框架。 |
+| 12 | GenAIEval | [Repo](https://github.com/opea-project/GenAIEval) | [![Stars](https://img.shields.io/github/stars/opea-project/GenAIEval?style=flat-square)](https://github.com/opea-project/GenAIEval) | Apache-2.0 | 综合 scorecard 与 benchmark 套件 | 同时覆盖准确率、性能、安全和幻觉等多种评测维度。 |
